@@ -1,0 +1,15 @@
+/* Портфолiо сайту */
+
+.list-of-buttons .btn {
+    background-color: var(--third-bcg-color);
+}
+
+.list-of-buttons .btn:hover,
+.list-of-buttons .btn:focus {
+    color: var(--title-white-color);
+    background-color: var(--accent-text-color);
+}
+
+.projects .project-item {
+    color: var(--paragraph-text-color);
+}
