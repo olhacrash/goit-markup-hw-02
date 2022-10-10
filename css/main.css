@@ -5,11 +5,24 @@
     color: var(--title-white-color);
 }
 
+.hero-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
 /* Кнопка */
 
 .button {
     background-color: var(--accent-text-color);
     color: var(--title-white-color);
+    font-weight: 700;
+        font-size: 16px;
+        line-height: 1.9;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        cursor: pointer;
 }
 
 .button:hover,
@@ -18,11 +31,27 @@
     background-color: var(--title-white-color);
 }
 
-/* Особливості */
+/* Особливості і команда */
 
+.feature-title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
 
 .feature-list .paragraph {
     color: var(--paragraph-text-color);
+        line-height: 1.7;
+        }
+        
+        /* Наша робота */
+        
+        .section-title {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1.16;
+            text-align: center;
 }
 
 /* Команда */
@@ -31,6 +60,15 @@
     background-color: var(--third-bcg-color);
 }
 
+.team-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
 .team-list .paragraph {
     color: var(--paragraph-text-color);
+        font-size: 16px;
+            line-height: 1.18;
+            text-align: center;
 }
