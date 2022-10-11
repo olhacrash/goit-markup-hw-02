@@ -97,10 +97,11 @@ ul {
 }
 
 .hero-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
+    font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
     text-align: center;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
 }
 /* Кнопка */
@@ -132,7 +133,7 @@ ul {
     text-transform: uppercase;
 }
 
-.feature-list .paragraph {
+.feature-list .text {
     color: var(--paragraph-text-color);
         line-height: 1.7;
         }
@@ -152,7 +153,7 @@ ul {
     background-color: var(--third-bcg-color);
 }
 
-.team-list {
+.team-item {
     background-color: var(--title-white-color);
 }
 .team-title {
@@ -162,7 +163,7 @@ ul {
     text-align: center;
 }
 
-.team-list .paragraph {
+.team-list .text {
     color: var(--paragraph-text-color);
         font-size: 16px;
             line-height: 1.18;
@@ -191,6 +192,7 @@ ul {
     text-decoration: none;
 }
 .projects .project-title {
+    color: var(--primary-gray-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -209,10 +211,9 @@ ul {
     background-color: var(--bcg-color-gray);
 }
 
-span {
+.footer .logo-header {
     color: var(--title-white-color);
 }
-
 .footer .link-adress {
     color: var(--title-white-color);
     text-decoration: none;
@@ -227,6 +228,7 @@ span {
 .footer .link {
     font-size: 14px;
     line-height: 1.71;
+    font-weight: 400;
     letter-spacing: 0.03em;
     color: var(--footer-links-color);
 }
