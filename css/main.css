@@ -187,6 +187,9 @@ ul {
     background-color: var(--accent-text-color);
 }
 
+.projects .project-link {
+    text-decoration: none;
+}
 .projects .project-title {
     font-weight: 700;
     font-size: 18px;
